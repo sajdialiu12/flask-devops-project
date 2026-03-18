@@ -1,11 +1,11 @@
 # Flask DevOps Project
 
-A simple Dockerized Flask app.
+A Dockerized Flask app.
 
 ## Run locally
 python app.py
 
-## Run with Docker
+## Run via Docker
 docker build -t simple-devops-app .
 docker run -p 5000:5000 simple-devops-app
 
